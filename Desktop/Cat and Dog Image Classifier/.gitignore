@@ -1,11 +1,24 @@
-# Hapus aturan yang mengabaikan file .ipynb atau folder terkait
-*.ipynb
-
-# Tambahkan pengecualian untuk file ini
-!Desktop/Cat and Dog Image Classifier/firman_fcc_cat_dog.ipynb
-
-.bash_history
+# Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore environment files and directories
+.venv/
+.env/
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore VSCode directories
 .vscode/
+
+# Ignore log files
 *.log
+
+# Ignore any other unneeded files
 *.zip
